@@ -25,6 +25,8 @@ In otder to assist with the subsetting of the tbl by column, column labels are f
 Step 3 - Attaches descriptive activity names to each row.
 Exercise types (or activities) are read in with their associated indeces.  Then a merge is performed by the indeces to attach a column of desriptive names to a new column in 'merged_step3'.
 
+Step 4 - Note that this was combined with step 2 (see above.)
+
 Step 5 - Create a tidy data set of the averages of each column.
 After putting the subject index and activity type in the first two columns, the tbl is grouped by subject and activity type.  A summarise_all on the grouped tbl is then performed using the mean function.  Finally, the resulting 'summary_table' is sorted by subject and activity index and written to an output .txt file.
 
