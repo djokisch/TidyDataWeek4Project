@@ -4,21 +4,14 @@ My final project for the Getting and Cleaning Data course
 The run_analysis.R script is applied to data contained in the Human Activity Recognition Using Smartphones Data Set found at. http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The run_analysis.R script will read in the following files, which should be located relative to the working directory as follows:
-  UCI HAR Dataset/test/X_test.txt
-  
-  UCI HAR Dataset/test/y_test.txt
-  
-  UCI HAR Dataset/test/subject_test.txt
-  
-  UCI HAR Dataset/train/X_train.txt
-  
-  UCI HAR Dataset/train/y_train.txt
-  
-  UCI HAR Dataset/train/subject_train.txt
-  
-  UCI HAR Dataset/features.txt
-  
-  UCI HAR Dataset/activity_labels.txt
+* UCI HAR Dataset/test/X_test.txt
+* UCI HAR Dataset/test/y_test.txt
+* UCI HAR Dataset/test/subject_test.txt
+* UCI HAR Dataset/train/X_train.txt
+* UCI HAR Dataset/train/y_train.txt
+* UCI HAR Dataset/train/subject_train.txt
+* UCI HAR Dataset/features.txt
+* UCI HAR Dataset/activity_labels.txt
 
 The script will work through the five steps of the assignment automatically as follows:
 
